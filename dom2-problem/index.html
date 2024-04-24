@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="filter-1">
+        <label for="category">Filter by category:</label>
+        <select id="category" onchange="filterProducts()">
+            <option value="all">All Categories</option>
+            <option value="men's clothing">Men's Clothing</option>
+            <option value="women's clothing">Women's Clothing</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelery">Jewelery</option>
+        </select>
+
+        <button onclick="hig()">hig to lo</button>
+        <button onclick="lo()">lo to hig</button>
+        <button onclick="ra()">to rating</button>
+    </div>
+    <div class="continor" id="cc">
+
+        <div class="bb"></div>
+
+
+        <!-- <div class="box1">
+            <div class="img-box">
+                <img src="https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg" alt="">
+            </div>
+            <div class="rating">
+                <p class="rt"><span class="r1">5</span> / <span class="r2">2.5</span></p>
+            </div>
+            <div class="name">
+                <h2 class="title">Niene</h2>
+            </div>
+            <div class="category">
+                <p>women's clothing</p>
+            </div>
+            <div class="price">
+                <h3 class="items-price">Rs <span class="pesa"> 4545</span></h3>
+            </div>
+
+        </div> -->
+
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>
